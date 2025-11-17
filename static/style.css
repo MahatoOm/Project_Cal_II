@@ -68,7 +68,7 @@ form {
 input {
   background-color: #1C222B;
   border: none;
-  padding: 10px 15px;
+  padding: 10px 10px;
   border-radius: 6px;
   color: white;
   width: 220px;
@@ -103,4 +103,14 @@ footer p {
   border-radius: 8px;
   color: rgba(255, 255, 255, 0.85);
   font-size: 0.9rem;
+}
+
+.int-sign {
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+.dx-label {
+  color:aliceblue;
+  font-size: large;
 }

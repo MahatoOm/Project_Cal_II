@@ -18,17 +18,21 @@
     <section class="container">
       <div class="card">
         <h3>Integration By Parts</h3>
-        <form method="POST" action="/IntByParts">
+        <form method="POST" action="/IntByParts" class = "integral-row">
+          <span class = "int-sign">∫<span>
           <input type="text" name="u" placeholder="Enter u" required>
           <input type="text" name="dv" placeholder="Enter dv" required>
+            <span class = "dx-label"><i>dx</i><span>
           <button type="submit" class="run-btn">Run</button>
         </form>
       </div>
 
       <div class="card">
         <h3>Integrals Involving Trigonometric Functions</h3>
-        <form method="POST" action="/IntByTrig">
+        <form method="POST" action="/IntByTrig" class = "integral-row2">
+          <span class = "int-sign">∫<span>
           <input type="text" name="input_int_by_trig" placeholder="sin^3 (x) cos^4 (x)" required>
+            <span class = "dx-label"><i>dx</i><span>
           <button type="submit" class="run-btn">Run</button>
         </form>
       </div>

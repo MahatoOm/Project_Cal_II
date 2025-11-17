@@ -162,7 +162,7 @@ string solution(string u, string dv){
     string res = findDerivative(u);
     string res2 = findIntegral(dv);
 
-    return res + " + " + res2;
+    return res + " + " + res2 + " C ";
 
 }
 
