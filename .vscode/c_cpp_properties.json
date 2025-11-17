@@ -4,8 +4,9 @@
             "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/Users/omprakashmahato/Anaconda/anaconda3/include/python3.12",
-                "/Users/omprakashmahato/Documents/flask/Project_Cal_II/venv/lib/python3.12/site-packages/pybind11/include",
+              
+                "/Library/Frameworks/Python.framework/Versions/3.14/include/python3.14",
+                "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/pybind11/include",
                 "/opt/homebrew/include"
                 
             ],
