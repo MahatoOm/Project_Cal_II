@@ -1,7 +1,5 @@
 #include <iostream>
 #include <string>
-#include <pybind11/pybind11.h>
-
 using namespace std;
 
 string findDerivative(string u)
@@ -133,41 +131,27 @@ string findSecondIntegral(string v, string du)
 }
 
 
-// int main()
-// {
-//     string u, dv, du, v;
+int main()
+{
+    string u, dv, du, v;
 
-//     cout << "Enter u (like x^2 or 3x^2): ";
-//     cin >> u;
-//     cout << "Enter dv (like cos(x), sin(3x), e^x): ";
-//     cin >> dv;
+    cout << "Enter u (like x^2 or 3x^2): ";
+    cin >> u;
+    cout << "Enter dv (like cos(x), sin(3x), e^x): ";
+    cin >> dv;
 
-//     du = findDerivative(u);
-//     v = findIntegral(dv);
-//     string secondPart = findSecondIntegral(v, du);
+    du = findDerivative(u);
+    v = findIntegral(dv);
+    string secondPart = findSecondIntegral(v, du);
 
-//     // ∫u dv = uv - ∫v du
-//     string finalAnswer = "(" + u + ")*(" + v + ") - (" + secondPart + ") + C";
+    // ∫u dv = uv - ∫v du
+    string finalAnswer = "(" + u + ")*(" + v + ") - (" + secondPart + ") + C";
 
-//     cout << "\n---- Results ----\n";
-//     cout << "u  = " << u << endl;
-//     cout << "du = " << du << endl;
-//     cout << "v  = " << v << endl;
-//     cout << "\nFinal Answer: " << finalAnswer << endl;
+    cout << "\n---- Results ----\n";
+    cout << "u  = " << u << endl;
+    cout << "du = " << du << endl;
+    cout << "v  = " << v << endl;
+    cout << "\nFinal Answer: " << finalAnswer << endl;
 
-//     return 0;
-// }
-
-string solution(string u, string dv){
-    string res = findDerivative(u);
-    string res2 = findIntegral(dv);
-    string secondPart = findSecondIntegral(res2, res);
-
-    string finalAnswer = "(" + u + ")*(" + res2 + ") - (" + secondPart + ") + C";
-    return finalAnswer;
-
-}
-
-PYBIND11_MODULE(matthew, m) {
-    m.def("Solution", &solution, "A function that Integrate");
+    return 0;
 }
