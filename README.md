@@ -1,37 +1,27 @@
 # Project_Cal_II
 Program Which Solve Integral Problems 
+-------------------------------------
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Integration Result</title>
-  <!-- <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}"> -->
-</head>
+To install all dependencies run the following command
+    ➡️  pip install -r requirements.txt
 
-<body>
-  <div class="container">
-    <header>
-      <h1>Integration Result</h1>
-    </header>
+<h1>Landing Page</h1>
+<img src = "{{ url_for('static/images', filename='1.png') }}" width="300">
+<img src = "{{ url_for('static/images', filename='2.png') }}" width="300">
+<img src = "{{ url_for('static/images', filename='3.png') }}" width="300">
+<img src = "{{ url_for('static/images', filename='4.png') }}" width="300">
+<img src = "{{ url_for('static/images', filename='5.png') }}" width="300">
+<img src = "{{ url_for('static/images', filename='6.png') }}" width="300">
+<img src = "{{ url_for('static/images', filename='7.png') }}" width="300">
+<img src = "{{ url_for('static/images', filename='8.png') }}" width="300">
+
+  
+<h1>Integration Result</h1>
 
 
-        <p> fdghjklfxbxcvjk ghgjkl</p>
-    <!-- <main>
-      {% if inp %}
-        <h2>Your Input:</h2>
-        <pre>{{ inp }}</pre>
-      {% endif %}
+    
 
-      {% if result %}
-        <h2>Result:</h2>
-        <pre>{{ result }}</pre>
-      {% endif %}
 
-      <a href="/" class="back-btn">← Back to Calculator</a>
-    </main> -->
-  <!-- </div> -->
-</body>
-</html>
+        
+
