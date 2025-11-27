@@ -13,20 +13,20 @@ To run:
 ____________________________
 
 <h1><b>Data Structure</b></h1>
-<img src="static/images/image.png" width="300">
+<img src="static/images/image.png" width="800" height="450">
 
 ____________________________
 
 <h1><b>Landing Page</b></h1>
 <p> <u>This is the homepage </u></p><br>
 _____________________________
-<img src="static/images/1.png" width="300">
+<img src="static/images/1.png" width="800" height="450">
 
 _____________________________
 
 <h1>Integration Result</h1>
 ____________________________
-<img src="static/images/3.png" width="300">
+<img src="static/images/3.png" width="800" height="450">
 
 <pre>
 
@@ -38,7 +38,7 @@ Output:  (-1 cos^7 (x))/ 7 +  (1 cos^5 (x))/ 5 +  C.
 </pre>
 
 _________________________________
-<img src="static/images/5.png" width="300">
+<img src="static/images/5.png" width="800" height="450">
 
 
 <pre>
@@ -51,7 +51,7 @@ Output: -1 cos^101 x / 101
 </pre>
 
 _________________________________
-<img src="static/images/8.png" width="300">
+<img src="static/images/8.png" width="800" height="450">
 
 
 <pre>
