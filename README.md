@@ -1,4 +1,4 @@
-Project_Cal_II
+Project_Cal_II <br>
 Program Which Solve Integral Problems 
 -------------------------------------
 
@@ -13,20 +13,21 @@ To run:
 ____________________________
 
 <h1><b>Data Structure</b></h1>
-<img src = "{{ url_for('static', filename='images/1.png') }}" width="300">
+<img src="assets/images/image.png" width="300">
+
 ____________________________
 
 <h1><b>Landing Page</b></h1>
 <p> <u>This is the homepage </u></p><br>
 _____________________________
+<img src="assets/images/1.png" width="300">
 
-<img src = "{{ url_for('static', filename='images/1.png') }}" width="300">
 
 
 <h1>Integration Result</h1>
 ____________________________
+<img src="assets/images/3.png" width="300">
 
-<img src = "{{ url_for('static', filename='images/3.png') }}" width="300">
 <pre>
 
 This is the test for Integration involving trignometric function
@@ -37,8 +38,8 @@ Output:  (-1 cos^7 (x))/ 7 +  (1 cos^5 (x))/ 5 +  C.
 </pre>
 
 _________________________________
+<img src="assets/images/5.png" width="300">
 
-<img src = "{{ url_for('static', filename='images/5.png') }}" width="300">
 
 <pre>
 
@@ -50,8 +51,8 @@ Output: -1 cos^101 x / 101
 </pre>
 
 _________________________________
+<img src="assets/images/8.png" width="300">
 
-<img src = "{{ url_for('static', filename='images/8.png') }}" width="300">
 
 <pre>
 
