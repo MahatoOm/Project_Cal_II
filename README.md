@@ -1,2 +1,37 @@
 # Project_Cal_II
 Program Which Solve Integral Problems 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Integration Result</title>
+  <!-- <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}"> -->
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Integration Result</h1>
+    </header>
+
+
+        <p> fdghjklfxbxcvjk ghgjkl</p>
+    <!-- <main>
+      {% if inp %}
+        <h2>Your Input:</h2>
+        <pre>{{ inp }}</pre>
+      {% endif %}
+
+      {% if result %}
+        <h2>Result:</h2>
+        <pre>{{ result }}</pre>
+      {% endif %}
+
+      <a href="/" class="back-btn">← Back to Calculator</a>
+    </main> -->
+  <!-- </div> -->
+</body>
+</html>
