@@ -1,23 +1,70 @@
-# Project_Cal_II
+Project_Cal_II
 Program Which Solve Integral Problems 
 -------------------------------------
 
 
+
 To install all dependencies run the following command
     ➡️  pip install -r requirements.txt
+_______________________________________
 
-<h1>Landing Page</h1>
-<img src = "{{ url_for('static/images', filename='1.png') }}" width="300">
-<img src = "{{ url_for('static/images', filename='2.png') }}" width="300">
-<img src = "{{ url_for('static/images', filename='3.png') }}" width="300">
-<img src = "{{ url_for('static/images', filename='4.png') }}" width="300">
-<img src = "{{ url_for('static/images', filename='5.png') }}" width="300">
-<img src = "{{ url_for('static/images', filename='6.png') }}" width="300">
-<img src = "{{ url_for('static/images', filename='7.png') }}" width="300">
-<img src = "{{ url_for('static/images', filename='8.png') }}" width="300">
+To run:
+    ➡️ python app.py
+____________________________
+
+<h1><b>Data Structure</b></h1>
+<img src = "{{ url_for('static', filename='images/1.png') }}" width="300">
+____________________________
+
+<h1><b>Landing Page</b></h1>
+<p> <u>This is the homepage </u></p><br>
+_____________________________
+
+<img src = "{{ url_for('static', filename='images/1.png') }}" width="300">
+
+
+<h1>Integration Result</h1>
+____________________________
+
+<img src = "{{ url_for('static', filename='images/3.png') }}" width="300">
+<pre>
+
+This is the test for Integration involving trignometric function
+
+Input: sin^3x cos^4(x)
+Output:  (-1 cos^7 (x))/ 7 +  (1 cos^5 (x))/ 5 +  C.
+
+</pre>
+
+_________________________________
+
+<img src = "{{ url_for('static', filename='images/5.png') }}" width="300">
+
+<pre>
+
+This is the test for Integration involving trignometric function
+
+Input: sinx cos^100 (x)
+Output: -1 cos^101 x / 101
+
+</pre>
+
+_________________________________
+
+<img src = "{{ url_for('static', filename='images/8.png') }}" width="300">
+
+<pre>
+
+This is the test for Integration by parts
+
+Input: x cos(x)
+Output: (x)*(sin(x)) - (-cos(x)) + C
+
+</pre>
+
+__________________________________
 
   
-<h1>Integration Result</h1>
 
 
     
